@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Welcome to my simple Python password manager</h1>
+
+    <h2>Choose what you wish to do:</h2>
+    <ul>
+      <li><a href="/create">Create a new password</a></li>
+      <li><a href="/view">View all passwords</a></li>
+      <li><a href="/update">Update the passwords</a></li>
+      <li><a href="/remove">Remove passwords</a></li>
+    </ul>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>

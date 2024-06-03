@@ -10,6 +10,9 @@ npm run serve
 
 https://code.visualstudio.com/docs/python/tutorial-flask
 https://flask.palletsprojects.com/en/3.0.x/
+https://pythonbasics.org/
+
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 
 # Setup
 
